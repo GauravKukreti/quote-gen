@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: #22272E;
+}
+
+#container{
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    min-width: 576px;
+    width: 576px;
+    height: 380px;
+}
+
+#header{
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 20px;
+}
+
+#line{
+    background-color: gray;
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px;
+    height: 2px;
+}
+
+#btn{
+    background-color: #5272EF;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: medium;
+}
+
+#display{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 5px;
+    align-items: end;
+    font-size: medium;
+    margin: 10px;
+}
+
+#quote{
+    margin: 10px;
+}
+
+#author{
+    margin-right: 8px;
+}
